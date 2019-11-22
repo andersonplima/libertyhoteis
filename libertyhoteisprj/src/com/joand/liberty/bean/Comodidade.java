@@ -1,5 +1,8 @@
 package com.joand.liberty.bean;
 
-public class Comodidade {
-
+public enum Comodidade {
+	ACADEMIA,
+	ESTACIONAMENTO,
+	PISCINA,
+	SINUCA
 }
