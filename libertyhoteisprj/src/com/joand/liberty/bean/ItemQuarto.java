@@ -1,5 +1,10 @@
 package com.joand.liberty.bean;
 
-public class ItemQuarto {
+public enum ItemQuarto {
+	
+	CAMA,
+	TV,
+	FRIGOBAR,
+	COZINHA_COMPLETA
 
 }
