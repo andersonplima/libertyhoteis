@@ -12,7 +12,7 @@ public class FachadaLocadora implements IFachada {
 	public Cliente cadastrarCliente(String nome, String endereco, String cpf, Date dataNascimento) {
 		
 		Cliente cliente = new Cliente();
-		repositorioCliente.cadastrarCliente(cliente);
+	//	repositorioCliente.cadastrarCliente(cliente);
 		
 		return cliente;
 	}
