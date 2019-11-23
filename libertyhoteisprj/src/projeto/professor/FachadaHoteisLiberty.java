@@ -1,6 +1,5 @@
 package projeto.professor;
 
-import java.util.Collection;
 import java.util.Date;
 
 public class FachadaHoteisLiberty implements IFachadaHoteisLiberty {
@@ -56,6 +55,16 @@ public class FachadaHoteisLiberty implements IFachadaHoteisLiberty {
 		Hotel hotel = fabricaClasse.criarHotel(nome, endereco);
 		
 		return hotel;
+	}
+
+	@Override
+	public Reserva reserva(Date dataInicio, Date dataFim, Hospede responsavel) {
+		
+		Reserva reserva = new Reserva(dataFim, dataFim, responsavel);
+		
+	//	repositorioReserva.cadastrarReserva(reserva);
+		
+		return reserva;
 	}
 
 		
