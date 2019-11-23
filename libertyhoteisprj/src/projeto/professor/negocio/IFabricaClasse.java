@@ -1,4 +1,8 @@
-package projeto.professor;
+package projeto.professor.negocio;
+
+import projeto.professor.negocio.modelos.EnumTipoQuarto;
+import projeto.professor.negocio.modelos.Hotel;
+import projeto.professor.negocio.modelos.Quarto;
 
 public interface IFabricaClasse {
 

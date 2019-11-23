@@ -1,4 +1,10 @@
-package projeto.professor;
+package projeto.professor.negocio;
+
+import projeto.professor.negocio.modelos.EnumTipoQuarto;
+import projeto.professor.negocio.modelos.Hotel;
+import projeto.professor.negocio.modelos.HotelApart;
+import projeto.professor.negocio.modelos.Quarto;
+import projeto.professor.negocio.modelos.QuartoApart;
 
 public class FabricaClasseApart implements IFabricaClasse {
 

@@ -1,4 +1,10 @@
-package projeto.professor;
+package projeto.professor.negocio;
+
+import projeto.professor.negocio.modelos.EnumTipoQuarto;
+import projeto.professor.negocio.modelos.Hotel;
+import projeto.professor.negocio.modelos.HotelClassic;
+import projeto.professor.negocio.modelos.Quarto;
+import projeto.professor.negocio.modelos.QuartoClassic;
 
 public class FabricaClasseClassic implements IFabricaClasse {
 
